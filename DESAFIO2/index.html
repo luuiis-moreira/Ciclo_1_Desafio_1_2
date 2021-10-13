@@ -16,17 +16,17 @@
     </header>
     <main class="flex center">
 
-            <form class="flex">
+            <form class="flex" method="post">
                 <label for="cep">Cep</label>
-                <input required id="cep" type="text" placeholder="Insira um CEP para começar">
+                <input required id="cep" type="text" name="cep" placeholder="Insira um CEP para começar">
                 <label for="rua">Rua</label>
-                <input id="rua" type="text">
+                <input id="rua" type="text" name="rua">
                 <label for="bairro">Bairro</label>
-                <input id="bairro" type="text">
+                <input id="bairro" type="text"  name="bairro">
                 <label for="cidade">Cidade</label>
-                <input id="cidade" type="text">
+                <input id="cidade" type="text" name="cidade">
                 <label for="estado">Estado</label>
-                <input id="estado" type="text">
+                <input id="estado" type="text" name="estado">
                 <input id="submit" type="submit" value="BUSCAR">
             </form>
 
